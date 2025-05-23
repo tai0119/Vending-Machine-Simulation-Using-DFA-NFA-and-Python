@@ -6,12 +6,19 @@ The purpose of this assignment is to design and implement a vending machine simu
 You are tasked with designing a vending machine that sells the following items: 
 ![image](https://github.com/user-attachments/assets/c0324fbb-8b6d-403a-a011-492f4c53ade5)
 ## Machine Behavior: 
+
 • The machine only accepts values of RM0.5 and RM1. 
+
 • All other values (RM5, RM10, RM20, RM50, RM100) are rejected and returned to the user. 
+
 • If the inserted amount matches the item price, the item is dispensed. 
+
 • If the inserted amount exceeds the price, the machine will: 
+
 ❖ Dispense the item 
+
 ❖ Return the excess money as change 
+
 • The user can select a new item after each purchase. (This point in code implementation only) 
 ## The vending machine's behavior can be described using formal language concepts as follows: 
 • Alphabet (Σ): 
